@@ -6,7 +6,7 @@ Your objective is to display a gif to the DOM based on a user search. You will n
 
 ## Getting Started
 
-Fork and Close the Exercise Repo to get started: [JavaScript Fetch API](https://github.com/Bryantellius/JavaScript_APIs)
+Fork and Clone the Exercise Repo to get started: [JavaScript Fetch API](https://github.com/Bryantellius/JavaScript_APIs)
 
 ### Prerequisites
 

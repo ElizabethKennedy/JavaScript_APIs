@@ -3,10 +3,7 @@ body {
     font-stretch: extra-expanded;
     background-color:cornflowerblue;
     color:black;
-}
 
-.col-6 {
-    flex-basis: 50%;
 }
 #imageContainer {
     max-width: 680px;
@@ -24,7 +21,5 @@ body {
     overflow-y: auto;
 }
 
-#savedGifs > img {
-    flex-basis: 33%;
+
     
-}

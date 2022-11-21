@@ -4,44 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css"/>
-    <div>
-<form>
-</form>
-</div>
+    <script defer src="app.js"></script>
   </head>
   <body>
-    <main
-      style="
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-      "
-    >
-      <div>
-        <h1>JavaScript APIs</h1>
-        <p id="feedback"></p>
-        <div id="inputContainer">
-          <label for="searchWord">Giphy Search:</label>
-          <input style="margin: 2rem" type="text" id="searchWord" />
-          <button id="submitSearch">Giphy by Search</button>
-        </div>
+    
+    <div>
+      <h1>JavaScript APIs</h1>
+      <p id="feedback"></p>
+      <div id="inputContainer">
+        <label for="searchWord">Giphy Search:</label>
+        <input style="margin: 2rem" type="text" id="searchWord" />
+        <button id="submitSearch">Giphy by Search</button>
+      </div>
 
-        <div id="imageContainer" class=hidden>
-          <div class="gifOptions">
-            <button id="saveBtn">Save for Later</button>
-          </div>
-          <img src="" alt="" class="img-fluid" />
+      <div id="imageContainer" class="hidden">
+        <div class="gifOptions">
+          <button  type="button" id="saveBtn">Save for Later</button>
         </div>
-          <img
-            src="#"
+        <img src="#"
             alt="Giphy Selection"
             style="width: 100%; height: auto"
-          />
-        </div>
-      </div>
-    </main>
-
-    <script src="app.js"></script>
-  </body>
+            />
+      <div>
+    </div>
+  </main>
+</body>
 </html>
